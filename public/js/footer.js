@@ -198,16 +198,14 @@
     $('#menu-current-active').addClass("ubermenu-active")
 </script>
 `)
-    console.log($("#products-label").next("ul.ubermenu-submenu-id-210-col-0"))
-        /* .closest("ul.ubermenu-submenu-id-210-col-0").css("height", 0); */
 }());
-/* $(document).ready(function() {
+$(document).ready(function() {
     let isActive = false
     $("#products-label").click(function() {
         isActive = !isActive;
         if (isActive)
-            $("#products-label ul.ubermenu-submenu-id-210-col-0").hide();
+            $("#products-label + ul.ubermenu-submenu-id-210-col-0").removeClass("hide-submenu");
         else
-            $("#products-label ul.ubermenu-submenu-id-210-col-0").hide();
+            $("#products-label + ul.ubermenu-submenu-id-210-col-0").addClass("hide-submenu");
     });
-}); */
+});

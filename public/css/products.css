@@ -10624,6 +10624,10 @@ body.error404 .banner-outer {
     display: none
 }
 
+.mobile-product-list {
+    display: none
+}
+
 @media only screen and (max-width:1600px) {
     .c-nav_container nav>ul li.industry-image:hover ul.ubermenu-submenu {
         left: 300px
@@ -10762,7 +10766,13 @@ body.error404 .banner-outer {
     .nav-main1.mobile-menu {
         display: block
     }
+    .mobile-product-list {
+        display: block
+    }
     .nav-main.desktop-menu {
+        display: none
+    }
+    .desktop-product-list {
         display: none
     }
     .menu-icone {
@@ -11201,8 +11211,9 @@ body.error404 .banner-outer {
     }
     .c-nav_container1 .parentTabs #ubermenu-main-9 {
         position: fixed !important;
-        height: 100% !important;
-        overflow: scroll !important
+        height: auto !important;
+        overflow: scroll !important;
+        box-shadow: 0px 7px 9px;
     }
     .mobile-submenu-fixed {
         position: fixed
@@ -18441,4 +18452,28 @@ body:not(.rtl) .ubermenu-skin-black-white-2.ubermenu-horizontal .ubermenu-item-l
 .mobile-menu .industry-image .mobile-dolphin-img,
 .mobile-menu .industry-image .mobile-cool-jug-img {
     height: 88%;
+}
+
+.mobile-menu .inudustry_tab {
+    position: relative;
+}
+
+.mobile-menu .inudustry_tab #products-label {
+    width: 100%;
+    display: flex;
+    float: left;
+}
+
+.mobile-menu .inudustry_tab #products-label i {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.hide-submenu {
+    display: none;
+}
+
+#products-label.product-active {
+    border-bottom: 2px solid #b21f2c;
 }

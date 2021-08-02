@@ -11146,8 +11146,9 @@ body.error404 .banner-outer {
     }
     .c-nav_container1 .parentTabs #ubermenu-main-9 {
         position: fixed !important;
-        height: 100% !important;
-        overflow: scroll !important
+        height: auto !important;
+        overflow: scroll !important;
+        box-shadow: 0px 7px 9px;
     }
     .mobile-submenu-fixed {
         position: fixed
@@ -19354,8 +19355,17 @@ body:not(.rtl) .ubermenu-skin-black-white-2.ubermenu-horizontal .ubermenu-item-l
 }
 
 .mobile-menu .inudustry_tab #products-label {
-    height: 1%;
-    z-index: 999;
     width: 100%;
-    position: absolute;
+    display: flex;
+    float: left;
+}
+
+.mobile-menu .inudustry_tab #products-label i {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.hide-submenu {
+    display: none;
 }
