@@ -9460,9 +9460,10 @@ $(document).ready(function() {
     });
 });
 $(".ubermenu-responsive-toggle").on("mousedown touchstart", function() {
-    $("body").toggleClass("mobile-submenu-fixed");
+    // $("body").toggleClass("mobile-submenu-fixed");
 });
 $(window).scroll(function() {
+    console.log("sticky")
     var sticky = $("body"),
         scroll = $(window).scrollTop();
     if (scroll >= 10) sticky.addClass("sticky");
