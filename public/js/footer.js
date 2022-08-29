@@ -4,7 +4,7 @@
         <div class=footer-main>
             <div class=footer-top>
                 <div class=footer-log>
-                    <a href=index.html> <img src=public/images/logo.svg alt=images> </a>
+                    <a href=index.html> <img src=public/images/logo.png alt=images> </a>
                 </div>
                 <div class=footer-number>
                     <div class=footer-mobile-mob>
@@ -45,19 +45,25 @@
                                         <a href=products.html#pet-jar>20 ltr Pet Jar</a>
                                     </li>
                                     <li id=menu-item-1130 class="menu-item menu-item-type-post_type menu-item-object-products menu-item-1130">
-                                        <a href=products.html#matka>Dispenser / Matka</a>
+                                        <a href=products.html#matka>Dispenser / Matka (10 ltr)</a>
+                                    </li>
+                                    <li id=menu-item-1130 class="menu-item menu-item-type-post_type menu-item-object-products menu-item-1130">
+                                        <a href=products.html#8matka>Dispenser / Matka (8 ltr)</a>
                                     </li>
                                     <li id=menu-item-1130 class="menu-item menu-item-type-post_type menu-item-object-products menu-item-1130">
                                         <a href=products.html#cool-jug>Cool Jug</a>
                                     </li>
                                     <li id=menu-item-1130 class="menu-item menu-item-type-post_type menu-item-object-products menu-item-1130">
-                                        <a href=products.html#20ltr-dis>Dispenser with Handle & Cap (20 ltr)</a>
+                                        <a href=products.html#20ltr-dis>120mm Dispenser with Handle & Cap (20 ltr)</a>
                                     </li>
                                     <li id=menu-item-1130 class="menu-item menu-item-type-post_type menu-item-object-products menu-item-1130">
-                                        <a href=products.html#8ltr-dis>Dispenser with Handle & Cap (8 ltr)</a>
+                                        <a href=products.html#8ltr-dis>120mm Dispenser with Handle & Cap (8 ltr)</a>
                                     </li>
                                     <li id=menu-item-1130 class="menu-item menu-item-type-post_type menu-item-object-products menu-item-1130">
-                                        <a href=products.html#handle>Handle (20 ltr Jar)</a>
+                                        <a href=products.html#handle>Handle</a>
+                                    </li>
+                                    <li id=menu-item-1130 class="menu-item menu-item-type-post_type menu-item-object-products menu-item-1130">
+                                        <a href=products.html#10ltrPetJar>10 ltr Pet Jar</a>
                                     </li>
                                     <li id=menu-item-1130 class="menu-item menu-item-type-post_type menu-item-object-products menu-item-1130">
                                         <a href=products.html#bottle-guard>Bottle Guard</a>
@@ -67,6 +73,15 @@
                                     </li>
                                     <li id=menu-item-1130 class="menu-item menu-item-type-post_type menu-item-object-products menu-item-1130">
                                         <a href=products.html#dolphin-tap>Dolphin Tap</a>
+                                    </li>
+                                    <li id=menu-item-1130 class="menu-item menu-item-type-post_type menu-item-object-products menu-item-1130">
+                                        <a href=products.html#disp-ring>Dispenser / Matka Ring</a>
+                                    </li>
+                                    <li id=menu-item-1130 class="menu-item menu-item-type-post_type menu-item-object-products menu-item-1130">
+                                        <a href=products.html#120-cap>120mm Cap</a>
+                                    </li>
+                                    <li id=menu-item-1130 class="menu-item menu-item-type-post_type menu-item-object-products menu-item-1130">
+                                        <a href=products.html#120-handle>120mm Handle</a>
                                     </li>
                                 </ul>
                             </div>

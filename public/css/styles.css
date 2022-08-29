@@ -14934,7 +14934,7 @@ body:not(.rtl) .ubermenu.ubermenu-horizontal .ubermenu-item-level-0:first-child>
     }
     .ubermenu-responsive-default.ubermenu-responsive {
         width: 100%;
-        max-height: 500px;
+        max-height: 91%;
         visibility: visible;
         overflow: visible;
         -webkit-transition: max-height 1s ease-in;
@@ -19368,4 +19368,9 @@ body:not(.rtl) .ubermenu-skin-black-white-2.ubermenu-horizontal .ubermenu-item-l
 
 .hide-submenu {
     display: none;
+}
+
+.ubermenu .ubermenu-submenu .ubermenu-target.flex-jusfify-center{
+    display: flex !important;
+    justify-content: center;
 }
