@@ -93,7 +93,7 @@
         <div class=copy-right>
             <p>Copyright © <span id="copyright">
                 <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
-            </span> Gemman Enterprises. All rights reserved.<a href="https://api.whatsapp.com/send?phone=+919768062647&text=Hello,%20please%20help%20me%20build%20our/my%20website." target="_blank">
+            </span> Gemman Enterprises. All rights reserved.<a href="https://api.whatsapp.com/send?phone=+919768062647&text=Hello%2C%20please%20help%20me%20build%20our%2Fmy%20website.%20I%20have%20contacted%20throught%20Gemman%20Enterprises." target="_blank">
             Built With Care By Idrees Tarwadi</a></p>
         </div>
     </div>
